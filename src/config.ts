@@ -1,6 +1,6 @@
 export const CONFIG = {
   EXCHANGE: "BITRUE_V2" as const,
-  SOURCE: "bitrue-v2" as const,
+  SOURCE: "bitrue" as const,
   TYPE: "CEX" as const,
   CHAIN: "multi" as const,
   PORT: parseInt(process.env.PORT || "10472", 10),
